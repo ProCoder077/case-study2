@@ -1,0 +1,144 @@
+<html>
+
+<head>
+  <title>Realtime Filter  Webapp using PoseNet Neural Network</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+</head>
+
+
+<body>
+  <center>
+  <ol>
+    <div class="results">
+
+     <list>
+      <b>Test image-</b><img src="Clock.jpg" class="img_responsive">
+     </list>
+
+     <h5>Output on <b>Google Lens</b>-
+      <span>Bondis wall clock black</span>
+     </h5>
+
+     <h5>Output on <b>MobileNet Model</b>-
+      <span> Black wall clock</span>
+     </h5>
+    </div>
+  </ol>
+  <ol>
+    <div class="results">
+
+     <list>
+      <b>Test image-</b><img src="waterbottle.jpg" class="img_responsive">
+     </list>
+
+     <h5>Output on <b>Google Lens</b>-
+      <span>Stainless steel water bottle</span>
+     </h5>
+
+     <h5>Output on <b>MobileNet Model</b>-
+      <span>steel bottle</span>
+     </h5>
+
+      
+  </ol>
+  <ol>
+    <div class="results">
+
+     <list>
+      <b>Test image-</b><img src="rubber.jpg" class="img_responsive">
+     </list>
+
+     <h5>Output on <b>Google Lens</b>-
+      <span>Doms Dust free eraser</span>
+     </h5>
+
+     <h5>Output on <b>MobileNet Model</b>-
+      <span>Doms eraser</span>
+     </h5>
+
+    
+  </ol>
+  <ol>
+    <div class="results">
+
+     <list>
+      <b>Test image-</b><img src="paintings.jpg" class="img_responsive">
+     </list>
+
+     <h5>Output on <b>Google Lens</b>-
+      <span>Set of 3 trendy outline blob</span>
+     </h5>
+
+     <h5>Output on <b>MobileNet Model</b>-
+      <span>Colorful paintings</span>
+     </h5>
+
+      
+    </div>
+  </ol>
+  <ol>
+    <div class="results">
+
+     <list>
+      <b>Test image-</b><img src="telephone.jpg" class="img_responsive">
+     </list>
+
+     <h5>Output on <b>Google Lens</b>-
+      <span>Beetel X70 cordless landline</span>
+     </h5>
+
+     <h5>Output on <b>MobileNet Model</b>-
+      <span>Grey landline</span>
+     </h5>
+
+     <ol>
+      <div class="results">
+  
+       <list>
+        <b>Test image-</b><img src="telephone.jpg" class="img_responsive">
+       </list>
+  
+       <h5>Output on <b>Google Lens</b>-
+        <span>Beetel X70 cordless landline</span>
+       </h5>
+  
+       <h5>Output on <b>MobileNet Model</b>-
+        <span>Grey landline</span>
+       </h5>
+
+       <ol>
+        <div class="results">
+    
+         <list>
+          <b>Test image-</b><img src="Puncher.jpg" class="img_responsive">
+         </list>
+    
+         <h5>Output on <b>Google Lens</b>-
+          <span>Kangaro DP-280 puncher</span>
+         </h5>
+    
+         <h5>Output on <b>MobileNet Model</b>-
+          <span>pink charger </span>
+         </h5>
+
+      <div class="bob3">
+        <h4>Results-</h4>
+        <hr>
+        <h4>I have tested 6 images. 
+          <br>
+          Out of these all 6 were predicted correctly by Google Lens.
+        <br>
+      Hence Google Lens is more acurrate than MobileNet Model.</h4>
+      </div>
+    </div>
+  </ol>
+</center>
+</body>
